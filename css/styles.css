@@ -41,7 +41,8 @@ main {
 
 .product-img-desktop {
     height: 100%;
-    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
     border-top-left-radius: var(--rounded-border);
     border-bottom-left-radius: var(--rounded-border);
 }
